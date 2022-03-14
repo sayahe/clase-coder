@@ -180,6 +180,22 @@ mark{
     margin: 5rem 5rem;
     }
 
+    .pasteles1:hover{
+        transform:scale(2)
+    }
+    
+    .pasteles2:hover{
+        transform:scale(2)
+    }
+    
+    .pasteles3:hover{
+        transform:scale(2)
+    }
+    
+    .pasteles1, .pasteles2, .pasteles3{
+        transition: all 2s;
+    }
+
 
 
 
