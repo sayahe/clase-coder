@@ -279,20 +279,20 @@ h3{
     font-family: cursive;
 }
 
-.NewYork{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-left: 6rem;
-    margin-top: 3rem;
+.new-york{
+    margin-top: 10rem;
+    margin-bottom: 9rem;
+    background-color: turquoise;
 }
 
-.visitanos-texto{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 20px
+.NewYork{
+    margin-top: 6rem;
+    text-decoration: underline;
+}
+
+.california{
+    margin-top: 6rem;
+    text-decoration: underline;
 }
 
 
