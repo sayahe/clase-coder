@@ -4,9 +4,7 @@
 }
 /* header k c */
 
-header{
-    background-color: #7e214c;
-}
+
 
 header nav img{
     max-width: 150px;
@@ -19,43 +17,44 @@ header a {
   text-decoration: none;
 }
 
-.derecha-lista{
+.navbar-modificada{
     text-align: right;
     font-size: 20px;
     list-style-type: none; 
-    background-color: rgb(236, 223, 226); 
-    padding: 30px; 
+    background-color: #7e214c;
+    font-family: 'Josefin Sans', sans-serif;
+    
     
 }
 
-nav {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;  
-    padding: 30px;
+.logo{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+.navbar-nav{
+    margin-left: 30rem;
+    background-color: rgb(248, 218, 240);
 }
 
-nav ul li {
-    margin-right: 20px;
+a:hover{
+    font-size: 25px;
+    
 }
 
-nav ul li:hover{
-    font-weight: bold;
+.img-carousel{
+    /* margin-left: 32rem; */
+
 }
+
+
 
 
  img { 
-    max-width: 500px;
+    max-width: 400px;
     max-height: 500px;
     margin-top: 3rem;
-    border-radius: 2rem 2rem;
-    
+    border-radius: 2rem 2rem;    
 }
-
-ul li {
-    display: inline-block;
-    }
-
 
 h2{
     background-color: #F0E6EF ;
@@ -70,6 +69,14 @@ p {
     font-size: 20px;
     text-align: center;
     margin: 20px;
+}
+
+.boton-verMas{
+    margin-left: 4rem;
+    margin-top: 2rem;
+    background-color: #7e214c;;
+    border-color: #7e214c;
+    color: white;
 }
 
 
@@ -103,12 +110,12 @@ footer img{
 
 /* Home */
 
-.imgHome{
+/* .imgHome{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 5rem;
-}
+} */
 
 /* Nosotros */
 
@@ -386,7 +393,7 @@ h3{
 
 /* Tablet  Index*/
 
-@media (min-width: 768px) and (max-width: 1024px){
+/* @media (min-width: 768px) and (max-width: 1024px){
     header{
         grid-area:header;
     }
@@ -428,7 +435,7 @@ h3{
         max-width: 30%;
     }
 
-}
+} */
 
 /* mobile  Index*/
 
